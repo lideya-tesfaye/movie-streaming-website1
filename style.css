@@ -1,0 +1,114 @@
+body {
+background: linear-gradient(to bottom, black, rgb(73, 72, 75));
+}
+.nav {
+    display: flex; 
+     background-color: black;
+     padding-top: 17px;
+     height: 35px;
+     width:  1351px;
+    margin-top: -7px;
+    margin-left: -9px;
+}
+.link {
+    margin-left: 400px;
+    margin-right: 40px;
+}
+.link1, .link2, .link3 {
+ margin-right: 40px;
+} 
+.link,.link1,.link2,.link3,.link4 {
+    color: white;
+    text-decoration: none;
+}
+.link:hover {
+    color: gray;
+}
+.link1:hover {
+     color: gray;
+}
+.link2:hover {
+      color: gray;
+}
+.link3:hover {
+      color: gray;
+}
+.link4:hover {
+      color: gray;
+}
+#one {
+ margin-left: 350px;
+ font-weight: bold;
+ color: white;
+
+}
+#one:hover {
+    cursor: pointer;
+}
+.title {
+    font-size: 70px;
+    margin-left: 350px;
+    padding-top: 15px;
+    color: white;
+    display: none;
+    font-weight: bold;
+     text-decoration: none;  
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  position: relative;
+  background: black;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.close-signin {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.movie-card {
+  width: 325px;
+  height: 200px;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+
+
+

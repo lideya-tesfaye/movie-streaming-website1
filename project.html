@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie streaming website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <a class="link" href="#home">Home</a>
+        <a class="link1" href="#movies">Movies</a>
+        <a class="link2" href="#series">Series</a>
+        <a class="link3" href="#short movies">short movies</a>
+        <a class="link4" href="#Trailers">Trailers</a>
+        <a id="one">Sign in</a>
+    </div>
+    
+<section id="movies"></section>
+<section id="series"></section>
+<section id="short-movies"></section>
+<section id="trailers"></section>
+
+<div id="videoModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe id="youtubePlayer" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+  </div>
+</div>
+<div id="signInModal" class="modal">
+  <div class="modal-content">
+    <span class="close-signin">&times;</span>
+    <h2 style="color:white;">Sign In</h2>
+    <form id="signInForm" style="display:flex; flex-direction: column; gap: 15px; margin-top: 20px;">
+      <input type="text" placeholder="Username" required style="padding:10px; border-radius:5px; border:none;">
+      <input type="password" placeholder="Password" required style="padding:10px; border-radius:5px; border:none;">
+      <button type="submit" style="padding:10px; border-radius:5px; background-color:rgb(7,124,7); color:white; border:none; cursor:pointer;">Sign In</button>
+    </form>
+  </div>
+</div>
+ <script src="project.js"></script>
+</body>
+</html>
