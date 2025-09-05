@@ -1,68 +1,83 @@
-Movie Streaming Website
+ Movie Streaming Website
+A full-stack movie streaming platform built with the MERN (MongoDB, Express, React, Node.js) stack.
+This platform allows users to browse, watch trailers, and manage movies, series, short films, and more. With user authentication and personalized features, it serves as a scalable foundation for a modern streaming service.
 
-Project Overview
-The Movie Streaming Website is a full-stack web application built with a MERN (MongoDB, Express, React, Node.js) stack. This platform allows users to browse, watch, and manage movies, series, short films, and trailers. Users can sign in, like movies, and maintain a personal watchlist. The project aims to provide a scalable foundation for a movie streaming platform with features like trailer playback, content categorization, and user authentication.
+Features
 
-Objectives:
-Display movies, series, shorts, and trailers dynamically from the backend.
-Allow users to watch trailers using a modal video player.
-Implement user authentication (sign in) with JWT-based security.
-Enable user-specific interactions: like movies, add to watchlist.
-Provide a responsive and visually appealing frontend with hover effects and modal windows.
+*  Dynamic Content Display – Movies, series, shorts, and trailers served from the backend.
+*  Trailer Playback – Modal-based video player for seamless trailer viewing.
+*  Authentication – Secure JWT-based sign-in system.
+*  User Interactions – Like movies and maintain a personal watchlist.
+*  Responsive UI – Built with HTML, CSS, and Vanilla JS (flexbox, hover effects, modal windows).
 
-Technologies and Tools Used
-Frontend:
-HTML5, CSS3, JavaScript (Vanilla JS)
-Font Awesome icons
-CSS Flexbox for responsive layout
-Modal implementation for video and sign-in
-Backend:
-Node.js & Express.js (REST API)
-MongoDB (Mongoose ODM)
-JWT for authentication
-express-validator for input validation
-CORS for cross-origin requests
-Morgan for logging requests
+#Tech Stack
+ Frontend
+* HTML5, CSS3, Vanilla JavaScript
+* Font Awesome (icons)
+* CSS Flexbox (responsive design)
+* Custom Modals (video player & sign-in)
 
-Development Tools:
-Node Package Manager (npm)
-Nodemon for live-reloading during development
-Postman for API testing
+Backend
+* Node.js & Express.js (REST API)
+* MongoDB with Mongoose ODM
+* JWT (JSON Web Tokens) for authentication
+* express-validator (input validation)
+* CORS (cross-origin requests)
+* Morgan (HTTP request logging)
 
-Project Structure
+#Development Tools
+* npm – package management
+* Nodemon – live reloading
+* Postman – API testing
+
+#Project Structure
 movie-streaming-backend/
-├─ src/
-│  ├─ controllers/
-│  │  ├─ auth.controller.js
-│  │  ├─ movie.controller.js
-│  │  ├─ genre.controller.js
-│  │  └─ user.controller.js
-│  ├─ middleware/
-│  │  └─ auth.js
-│  ├─ models/
-│  │  ├─ Movie.js
-│  │  ├─ Genre.js
-│  │  └─ user.js
-│  ├─ routes/
-│  │  ├─ auth.routes.js
-│  │  ├─ movie.routes.js
-│  │  ├─ genre.routes.js
-│  │  └─ user.routes.js
-│  └─ index.js
-├─ scripts/
-│  └─ seed.js
-├─ package.json
-└─ README.md
+├── src/
+│   ├── controllers/
+│   │   ├── auth.controller.js
+│   │   ├── movie.controller.js
+│   │   ├── genre.controller.js
+│   │   └── user.controller.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── models/
+│   │   ├── Movie.js
+│   │   ├── Genre.js
+│   │   └── User.js
+│   ├── routes/
+│   │   ├── auth.routes.js
+│   │   ├── movie.routes.js
+│   │   ├── genre.routes.js
+│   │   └── user.routes.js
+│   └── index.js
+├── scripts/
+│   └── seed.js
+├── package.json
+└── README.md
 
-Team Members and Roles
-Ruth Tsegamlak - Backend
-Lideya Tesfaye -Frontend
-Ruth Zedingel -Frontend
+#Team Members & Roles
+
+* Ruth Tsegamlak – Backend Developer
+* Lideya Tesfaye – Frontend Developer
+* Ruth Zedingel – Frontend Developer
+
+# Future Enhancements
+
+* Migrate frontend to React for better state management.
+* Add user registration with email verification.
+* Implement a recommendation engine based on likes/watchlist.
+* Enable full movie playback with secure streaming.
+* Add search & filter functionality on the frontend.
+* Improve UI with animations and advanced responsive design for mobile.
+
+#Getting Started
+ Prerequisites
+* Node.js & npm installed
+* MongoDB running locally or in the cloud
 
 Installation
-Bash
 # Clone the repository
-git clone https://github.com/your-username/movie-streaming-website.git
+git clone https://github.com/lideya-tesfaye/movie-streaming-website.git
 cd movie-streaming-backend
 
 # Install dependencies
@@ -71,13 +86,5 @@ npm install
 # Run development server
 npm run dev
 
- API Testing
+# API Testing
 Use Postman to test available routes (/auth, /movies, /genres, /users).
-
-Future Enhancements
-Convert frontend to React for better state management.
-Add user registration with email verification.
-Implement a recommendation engine based on likes/watchlist.
-Integrate full movie playback with secure streaming.
-Add search and filter functionality on the frontend.
-Improve UI with animations and responsive design for mobile.
