@@ -88,3 +88,11 @@ npm run dev
 
 # API Testing
 Use Postman to test available routes (/auth, /movies, /genres, /users).
+
+Dear evaluators we are writing these to inform you about an issue encountered during the execution of our Movie Streaming Website project. 
+While the frontend interface (HTML/CSS/JavaScript) and the backend server were both developed and tested individually, we were unable to establish a connection between them during the final execution,
+And also that we have a limited knowledge about integrating frontend and backend developments.
+we sincerely apologize for this limitation during execution and assure you that the logic and code for both frontend and backend have been implemented correctly.
+We will be very happy to receive feedbacks and suggestions.
+
+thank you 
