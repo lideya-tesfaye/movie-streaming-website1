@@ -1,0 +1,68 @@
+Movie Streaming Website
+
+Project Overview
+The Movie Streaming Website is a full-stack web application built with a MERN (MongoDB, Express, React, Node.js) stack. This platform allows users to browse, watch, and manage movies, series, short films, and trailers. Users can sign in, like movies, and maintain a personal watchlist. The project aims to provide a scalable foundation for a movie streaming platform with features like trailer playback, content categorization, and user authentication.
+
+Objectives:
+Display movies, series, shorts, and trailers dynamically from the backend.
+Allow users to watch trailers using a modal video player.
+Implement user authentication (sign in) with JWT-based security.
+Enable user-specific interactions: like movies, add to watchlist.
+Provide a responsive and visually appealing frontend with hover effects and modal windows.
+
+Technologies and Tools Used
+Frontend:
+HTML5, CSS3, JavaScript (Vanilla JS)
+Font Awesome icons
+CSS Flexbox for responsive layout
+Modal implementation for video and sign-in
+Backend:
+Node.js & Express.js (REST API)
+MongoDB (Mongoose ODM)
+JWT for authentication
+express-validator for input validation
+CORS for cross-origin requests
+Morgan for logging requests
+
+Development Tools:
+Node Package Manager (npm)
+Nodemon for live-reloading during development
+Postman for API testing
+
+Project Structure
+movie-streaming-backend/
+├─ src/
+│  ├─ controllers/
+│  │  ├─ auth.controller.js
+│  │  ├─ movie.controller.js
+│  │  ├─ genre.controller.js
+│  │  └─ user.controller.js
+│  ├─ middleware/
+│  │  └─ auth.js
+│  ├─ models/
+│  │  ├─ Movie.js
+│  │  ├─ Genre.js
+│  │  └─ user.js
+│  ├─ routes/
+│  │  ├─ auth.routes.js
+│  │  ├─ movie.routes.js
+│  │  ├─ genre.routes.js
+│  │  └─ user.routes.js
+│  └─ index.js
+├─ scripts/
+│  └─ seed.js
+├─ package.json
+└─ README.md
+
+Team Members and Roles
+Ruth Tsegamlak - Backend
+Lideya Tesfaye -Frontend
+Ruth Zedingel -Frontend
+
+Future Enhancements
+Convert frontend to React for better state management.
+Add user registration with email verification.
+Implement a recommendation engine based on likes/watchlist.
+Integrate full movie playback with secure streaming.
+Add search and filter functionality on the frontend.
+Improve UI with animations and responsive design for mobile.
