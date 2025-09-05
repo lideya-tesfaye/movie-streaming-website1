@@ -59,6 +59,21 @@ Ruth Tsegamlak - Backend
 Lideya Tesfaye -Frontend
 Ruth Zedingel -Frontend
 
+Installation
+Bash
+# Clone the repository
+git clone https://github.com/your-username/movie-streaming-website.git
+cd movie-streaming-backend
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+ API Testing
+Use Postman to test available routes (/auth, /movies, /genres, /users).
+
 Future Enhancements
 Convert frontend to React for better state management.
 Add user registration with email verification.
